@@ -7,18 +7,23 @@ npm run producer
 ```
 
 ```bash
-#example 2 (Pub/Sub)
+#example 2 (Publisher/Subscriber)
 npm run subscriber
 npm run publishert
 ```
 
 ```bash
-#example 3 (Req/Rep)
+#example 3 (Request/Reply)
 npm run server
 npm run client
 ```
 
 ```bash
-#example 3 (compatibility with Version 5)
+#example 4 (Dealer)
+npm run queue
+```
+
+```bash
+#example 5 (compatibility with Version 5)
 npm run compatibility
 ```
