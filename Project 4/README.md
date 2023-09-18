@@ -7,7 +7,7 @@ npm run producer
 ```
 
 ```bash
-#example 2 (Pub/Sub)
+#example 2 (Publisher/Subscriber)
 npm run subscriber
 npm run publisher
 ```
