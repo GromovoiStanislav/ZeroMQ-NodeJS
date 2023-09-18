@@ -1,0 +1,17 @@
+{
+  "name": "zeromq",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "consumer": "node consumer.js",
+    "producer": "node producer.js",
+    "subscriber": "node subscriber.js",
+    "publisher": "node publisher.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "zeromq": "^6.0.0-beta.17"
+  }
+}

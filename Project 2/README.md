@@ -13,7 +13,7 @@ npm run publishert
 ```
 
 ```bash
-#example 2 (Req/Rep)
+#example 3 (Req/Rep)
 npm run server
 npm run client
 ```

@@ -1,4 +1,4 @@
-## Examples Push/Pull using ZeroMQ (Version 6) (JS)
+## Example Push/Pull using ZeroMQ (Version 6) (JS)
 
 ```bash
 npm run worker
