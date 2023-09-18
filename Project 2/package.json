@@ -8,7 +8,8 @@
     "subscriber": "node subscriber.js",
     "publisher": "node publisher.js",
     "server": "node server.js",
-    "client": "node client.js"
+    "client": "node client.js",
+    "compatibility": "node compatibility.js"
   },
   "author": "",
   "license": "ISC",

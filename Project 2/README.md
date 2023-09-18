@@ -17,3 +17,8 @@ npm run publishert
 npm run server
 npm run client
 ```
+
+```bash
+#example 3 (compatibility with Version 5)
+npm run compatibility
+```
