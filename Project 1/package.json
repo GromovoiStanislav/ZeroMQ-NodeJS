@@ -1,0 +1,16 @@
+{
+  "name": "zeromq",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "worker": "node worker.js",
+    "producer": "node producer.js",
+    "subscriber": "node subscriber.js",
+    "publisher": "node publisher.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "zeromq": "^5.3.1"
+  }
+}
