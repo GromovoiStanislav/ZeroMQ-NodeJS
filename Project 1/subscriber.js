@@ -1,5 +1,5 @@
-const zmq = require('zeromq'),
-  sock = zmq.socket('sub');
+const zmq = require('zeromq');
+const sock = zmq.socket('sub');
 
 sock.connect('tcp://127.0.0.1:3000');
 sock.subscribe('kitty cats');
