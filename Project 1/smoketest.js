@@ -8,9 +8,8 @@ sock.bind('tcp://127.0.0.1:3000', (error) => {
   }
 
   console.log('Producer bound to port 3000');
-  setTimeout(function () {
-    sock.send('test');
-  }, 500);
+
+  sock.send('test');
 
   setTimeout(function () {
     sock.close();
