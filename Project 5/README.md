@@ -10,6 +10,7 @@ This example can serve as the basis for a queue that can be used in a broker to 
 npm run start:dev
 #or
 npm run build
+npm  start
 npm run start:prod
 
 ```
