@@ -2,7 +2,7 @@ import { Dealer } from 'zeromq';
 import { Queue } from './queue.js';
 async function main() {
     const sender = new Dealer();
-    await sender.bind('tcp://127.0.0.1:5555');
+    sender.connect('tcp://127.0.0.1:5555');
     const queue = new Queue(sender);
     queue.send('hello');
     queue.send('world!');
@@ -11,7 +11,7 @@ async function main() {
         setTimeout(resolve, 5000);
     });
     const receiver = new Dealer();
-    receiver.connect('tcp://127.0.0.1:5555');
+    await receiver.bind('tcp://127.0.0.1:5555');
     for await (const [msg] of receiver) {
         if (msg.length === 0) {
             receiver.close();
