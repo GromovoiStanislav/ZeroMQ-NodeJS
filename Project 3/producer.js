@@ -13,7 +13,7 @@ const send = async () => {
 };
 
 const run = async () => {
-  await sock.bind('tcp://127.0.0.1:7000');
+  sock.connect('tcp://127.0.0.1:7000');
   console.log('Press any key to start sending the jobs!');
   process.stdin.once('data', send);
 };
