@@ -2,7 +2,7 @@ import { Push } from 'zeromq';
 
 const sock = new Push();
 
-await sock.bind('tcp://127.0.0.1:7000');
+sock.connect('tcp://127.0.0.1:7000');
 console.log('[x] To exit type "exit"');
 console.log('Type a message...');
 

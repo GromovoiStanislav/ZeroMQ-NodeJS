@@ -2,7 +2,7 @@ import { Subscriber } from 'zeromq';
 
 const sock = new Subscriber();
 
-sock.connect('tcp://127.0.0.1:7000');
+await sock.bind('tcp://127.0.0.1:7000');
 sock.subscribe('my-messenger');
 
 console.log('Server is ready listening on port 7000');

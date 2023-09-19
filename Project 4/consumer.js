@@ -1,7 +1,7 @@
 import { Pull } from 'zeromq';
 const sock = new Pull();
 
-sock.connect('tcp://127.0.0.1:7000');
+await sock.bind('tcp://127.0.0.1:7000');
 
 console.log('Server is ready listening on port 7000');
 console.log('[x] To exit press CTRL+C');
