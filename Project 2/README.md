@@ -9,13 +9,13 @@ npm run producer
 ```bash
 #example 2 (Publisher/Subscriber)
 npm run subscriber
-npm run publishert
+npm run publisher
 ```
 
 ```bash
 #example 3 (Request/Reply)
 npm run server
-npm run client
+npm run client 30
 ```
 
 ```bash
