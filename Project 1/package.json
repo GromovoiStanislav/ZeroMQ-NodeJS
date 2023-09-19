@@ -6,7 +6,9 @@
     "worker": "node worker.js",
     "producer": "node producer.js",
     "subscriber": "node subscriber.js",
-    "publisher": "node publisher.js"
+    "publisher": "node publisher.js",
+    "server": "node server.js",
+    "client": "node client.js"
   },
   "author": "",
   "license": "ISC",

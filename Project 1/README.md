@@ -9,5 +9,11 @@ npm run producer
 ```bash
 #example 2 (Pub/Sub)
 npm run subscriber
-npm run publishert
+npm run publisher
+```
+
+```bash
+#example 3 (Req/Rep)
+npm run server
+npm run client 30
 ```
