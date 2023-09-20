@@ -12,7 +12,7 @@ if (isNaN(n)) {
 sock.connect('tcp://127.0.0.1:3000');
 console.log('Producer bound to port 3000');
 
-sock.on('message', function (result) {
+sock.on('message', (result) => {
   console.log(result.toString());
 });
 

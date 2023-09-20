@@ -4,7 +4,7 @@ const sock = zmq.socket('pull');
 sock.bindSync('tcp://127.0.0.1:3000');
 console.log('Worker bound to port 3000');
 
-sock.on('message', function (msg) {
+sock.on('message',  (msg)=> {
   console.log('work: %s', msg.toString());
 });
 
@@ -16,7 +16,7 @@ sock.on('message', function (msg) {
 
 //   console.log('Worker bound to port 3000');
 
-//   sock.on('message', function (msg) {
+//   sock.on('message',  (msg) => {
 //     console.log('work: %s', msg.toString());
 //   });
 // });

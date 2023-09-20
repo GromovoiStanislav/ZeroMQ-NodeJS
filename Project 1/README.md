@@ -22,3 +22,8 @@ npm run client 30
 #example 4 (dealer)
 npm run queue
 ```
+
+```bash
+#example 5 (pair)
+npm run pairs
+```

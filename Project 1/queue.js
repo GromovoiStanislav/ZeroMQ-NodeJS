@@ -19,7 +19,7 @@ function runReceiver() {
   receiver.bindSync('tcp://127.0.0.1:3000');
   console.log('Receiver bound to port 3000');
 
-  receiver.on('message', function (msg) {
+  receiver.on('message', (msg) => {
     if (msg.toString() === 'EXIT') {
       receiver.close();
       console.log('Receiver disconnected');
