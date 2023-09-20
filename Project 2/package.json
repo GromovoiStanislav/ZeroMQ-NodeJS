@@ -11,7 +11,9 @@
     "client": "node client.js",
     "compatibility": "node compatibility.js",
     "queue": "node queue.js",
-    "pairs": "node pairs.js"
+    "pairs": "node pairs.js",
+    "router": "node router.js",
+    "dealers": "node dealers.js"
   },
   "author": "",
   "license": "ISC",

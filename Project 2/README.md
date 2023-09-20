@@ -32,3 +32,9 @@ npm run compatibility
 #example 6 (pair)
 npm run pairs
 ```
+
+```bash
+#example 7 (router/dealer)
+npm run router
+npm run dealers
+```
