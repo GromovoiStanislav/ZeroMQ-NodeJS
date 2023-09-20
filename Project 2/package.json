@@ -10,7 +10,8 @@
     "server": "node server.js",
     "client": "node client.js",
     "compatibility": "node compatibility.js",
-    "queue": "node queue.js"
+    "queue": "node queue.js",
+    "pairs": "node pairs.js"
   },
   "author": "",
   "license": "ISC",

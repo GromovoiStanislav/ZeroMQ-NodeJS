@@ -27,3 +27,8 @@ npm run queue
 #example 5 (compatibility with Version 5)
 npm run compatibility
 ```
+
+```bash
+#example 6 (pair)
+npm run pairs
+```
