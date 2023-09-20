@@ -2,7 +2,7 @@ const zmq = require('zeromq');
 
 // Создаем и привязываем сокс типа "pair" к порту 3000
 const socket1 = zmq.socket('pair');
-socket1.bind('tcp://127.0.0.1:3000');
+socket1.bindSync('tcp://127.0.0.1:3000');
 
 // Создаем socket2 типа "pair" и подключаем его к socket1
 const socket2 = zmq.socket('pair');

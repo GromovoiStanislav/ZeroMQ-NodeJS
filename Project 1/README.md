@@ -27,3 +27,9 @@ npm run queue
 #example 5 (pair)
 npm run pairs
 ```
+
+```bash
+#example 6 (router/dealer)
+npm run router
+npm run dealers
+```
