@@ -8,7 +8,7 @@ function createAndConnectSocket(address) {
 
 async function handleIncomingMessages(socket, name) {
   for await (const [msg, ...args] of socket) {
-    console.log('args', args);
+    console.log('args', args.map(a=>a.toString()));
 
     console.log(`Сокс ${name} получил сообщение:`, msg.toString());
 

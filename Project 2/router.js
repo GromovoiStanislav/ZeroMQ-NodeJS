@@ -14,7 +14,10 @@ async function run() {
       clients[`${clientId}`] = clientId;
 
       console.log('clientId', clientId);
-      console.log('args', args);
+      console.log(
+        'args',
+        args.map((a) => a.toString())
+      );
 
       if (delimiter && message) {
         console.log('delimiter', delimiter.toString());
