@@ -11,17 +11,19 @@ dealer1.on('message', (message) => {
   console.log(`Получен ответ от сервера 1: ${message.toString()}`);
 });
 
-dealer2.on('message', (message, delimiter) => {
-  if (delimiter) {
-    console.log('delimiter', delimiter.toString());
-  }
+dealer2.on('message', (message, ...args) => {
+  console.log(
+    'args',
+    args.map((a) => a.toString())
+  );
+
   console.log(`Получен ответ от сервера 2: ${message.toString()}`);
 });
 
 // Отправляем запросы на сервер ROUTER
 dealer1.send('Запрос1 от клиента 1');
 dealer1.send('Запрос2 от клиента 1');
+dealer2.send('Запрос1 от клиента 2');
 dealer1.send('Запрос3 от клиента 1');
 dealer1.send('Запрос4 от клиента 1');
-dealer2.send('Запрос1 от клиента 2');
-dealer2.send(['5', 'Запрос 2 от клиента 2']);
+dealer2.send(['5', 'Запрос 2 от клиента 2', 'a', 'd', 'c']);
