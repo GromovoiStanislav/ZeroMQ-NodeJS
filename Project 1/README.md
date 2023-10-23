@@ -33,3 +33,18 @@ npm run pairs
 npm run router
 npm run dealers
 ```
+
+```bash
+#example 7 (pub/sub)
+npm run broker
+```
+
+```bash
+#example 8 (pub/sub & req/rep)
+npm run broker1
+```
+
+```bash
+#example 9 (router/dealer with monitor)
+npm run monitor
+```
