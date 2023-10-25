@@ -7,3 +7,4 @@
 - 5 - Simple send queue using ZeroMQ (Version 6) (TS/JS)
 - 6 - Distributed processing with worker threads using ZeroMQ (Version 6) (TS/JS)
 - 7 - Majordomo broker using ZeroMQ (Version 6) (TS/JS)
+- 8 - Pipeline Pattern using ZeroMQ (Version 6) (JS)
