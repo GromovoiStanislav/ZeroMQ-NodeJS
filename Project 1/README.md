@@ -48,3 +48,8 @@ npm run broker1
 #example 9 (router/dealer with monitor)
 npm run monitor
 ```
+
+```bash
+#example 10 (pub/sub)
+npm run multiple-subscribers
+```

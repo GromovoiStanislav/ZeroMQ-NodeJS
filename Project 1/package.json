@@ -15,7 +15,8 @@
     "dealers": "node dealers.js",
     "broker": "node broker.js",
     "broker1": "node broker1.js",
-    "monitor": "node monitor.js"
+    "monitor": "node monitor.js",
+    "multiple-subscribers": "node multiple-subscribers.js"
   },
   "author": "",
   "license": "ISC",
